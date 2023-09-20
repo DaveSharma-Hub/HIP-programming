@@ -117,15 +117,52 @@ vector<vector<Pixel*>> init(int row, int column){
     return grid;
 }
 
+vector<vector<Pixel*>> convertImageToPixel(string input){
+    vector<vector<Pixel*>> grid;
+
+    Mat foo = imread(input);
+    uint8_t* pixelPtr = (uint8_t*)foo.data;
+    int cn = foo.channels();
+
+    for(int i = 0; i < foo.rows; i++)
+    {
+        vector<Pixel*> tmp;
+        for(int j = 0; j < foo.cols; j++)
+        {
+            int b = (int)pixelPtr[i*foo.cols*cn + j*cn + 0]; // B
+            int g = (int)pixelPtr[i*foo.cols*cn + j*cn + 1]; // G
+            int r = (int)pixelPtr[i*foo.cols*cn + j*cn + 2]; // R
+            Pixel* p = new Pixel(r,g,b);
+            tmp.push_back(p);
+        }
+        grid.push_back(tmp);
+    }
+    
+    return grid;
+}
+
+void convertPixelToImage(vector<vector<Pixel*>>& grid, string output){
+    
+    for(int i=0;i<grid.size();i++){
+        for(int j=0;j<grid[i].size();j++){
+            // add the pixels?
+        }
+    }
+}
+
 int main() {
     // Write C++ code here
     
-    vector<vector<Pixel*>> grid = init(10,10);
+    // vector<vector<Pixel*>> grid = init(10,10);
+    string image = "./image.jpg";
+    vector<vector<Pixel*>> grid = convertImageToPixel(image);
+
     Converter* c1 = new Converter(grid);
-    c1->print();
+    // c1->print();
     c1->toYUV(4,2,2);
     cout<<"-------------------------"<<endl;
-    c1->print();
+    // c1->print();
+    convertPixelToImage(c1->pixelGrid,image);
     std::cout << "Hello world!";
 
     return 0;

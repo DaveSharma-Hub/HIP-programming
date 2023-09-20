@@ -1,0 +1,23 @@
+-------------------
+Grid size: 0GPU time: 3.01979e+07 ns
+
+-------------------
+Grid size: 256GPU time: 15641 ns
+
+-------------------
+Grid size: 512GPU time: 5870 ns
+
+-------------------
+Grid size: 768GPU time: 4990 ns
+
+-------------------
+Grid size: 1024GPU time: 5041 ns
+
+-------------------
+Grid size: 1280GPU time: 5320 ns
+
+-------------------
+Grid size: 1536GPU time: 4950 ns
+
+-------------------
+Grid size: 1792GPU time: 5090 ns

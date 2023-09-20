@@ -1,0 +1,7 @@
+\opencv*
+.vscode
+CMakeLists.txt
+*.jpg
+*.png
+*.File
+todo.txt

@@ -1,0 +1,195 @@
+Order magnitude test
+
+---------------------
+Row size: 1000 Col size: 500
+GPU time: 97260 ns
+CPU time: 1.4952e+06 ns
+
+---------------------
+Row size: 10000 Col size: 5000
+GPU time: 15390 ns
+CPU time: 1.48987e+08 ns
+
+Block Size test multiple of 64:
+
+---------------------
+Block size: 64
+GPU time: 17300 ns
+CPU time: 1.49152e+08 ns
+
+---------------------
+Block size: 128
+GPU time: 16910 ns
+CPU time: 1.48676e+08 ns
+
+---------------------
+Block size: 192
+GPU time: 19350 ns
+CPU time: 1.49261e+08 ns
+
+---------------------
+Block size: 256
+GPU time: 17220 ns
+CPU time: 1.48748e+08 ns
+
+---------------------
+Block size: 320
+GPU time: 16180 ns
+CPU time: 1.48707e+08 ns
+
+---------------------
+Block size: 384
+GPU time: 16820 ns
+CPU time: 1.48517e+08 ns
+
+---------------------
+Block size: 448
+GPU time: 17200 ns
+CPU time: 1.48796e+08 ns
+
+---------------------
+Block size: 512
+GPU time: 18830 ns
+CPU time: 1.49247e+08 ns
+
+---------------------
+Block size: 576
+GPU time: 18230 ns
+CPU time: 1.49443e+08 ns
+
+---------------------
+Block size: 640
+GPU time: 18510 ns
+CPU time: 1.49205e+08 ns
+
+---------------------
+Block size: 704
+GPU time: 17460 ns
+CPU time: 1.49312e+08 ns
+
+---------------------
+Block size: 768
+GPU time: 16570 ns
+CPU time: 1.4893e+08 ns
+
+---------------------
+Block size: 832
+GPU time: 18260 ns
+CPU time: 1.49286e+08 ns
+
+---------------------
+Block size: 896
+GPU time: 17870 ns
+CPU time: 1.48799e+08 ns
+
+---------------------
+Block size: 960
+GPU time: 16730 ns
+CPU time: 1.49228e+08 ns
+
+---------------------
+Block size: 1024
+GPU time: 17580 ns
+CPU time: 1.48692e+08 ns
+
+Block Size test not multiple of 64:
+
+---------------------
+Block size: 50
+GPU time: 17750 ns
+CPU time: 1.4937e+08 ns
+
+---------------------
+Block size: 100
+GPU time: 17400 ns
+CPU time: 1.48935e+08 ns
+
+---------------------
+Block size: 150
+GPU time: 16820 ns
+CPU time: 1.49213e+08 ns
+
+---------------------
+Block size: 200
+GPU time: 18700 ns
+CPU time: 1.48647e+08 ns
+
+---------------------
+Block size: 250
+GPU time: 18100 ns
+CPU time: 1.48974e+08 ns
+
+---------------------
+Block size: 300
+GPU time: 17670 ns
+CPU time: 1.48432e+08 ns
+
+---------------------
+Block size: 350
+GPU time: 17560 ns
+CPU time: 1.48533e+08 ns
+
+---------------------
+Block size: 400
+GPU time: 16870 ns
+CPU time: 1.48601e+08 ns
+
+---------------------
+Block size: 450
+GPU time: 17250 ns
+CPU time: 1.48564e+08 ns
+
+---------------------
+Block size: 500
+GPU time: 16930 ns
+CPU time: 1.48738e+08 ns
+
+---------------------
+Block size: 550
+GPU time: 16760 ns
+CPU time: 1.48947e+08 ns
+
+---------------------
+Block size: 600
+GPU time: 17030 ns
+CPU time: 1.4891e+08 ns
+
+---------------------
+Block size: 650
+GPU time: 18870 ns
+CPU time: 1.48779e+08 ns
+
+---------------------
+Block size: 700
+GPU time: 17230 ns
+CPU time: 1.4918e+08 ns
+
+---------------------
+Block size: 750
+GPU time: 18110 ns
+CPU time: 1.48996e+08 ns
+
+---------------------
+Block size: 800
+GPU time: 16980 ns
+CPU time: 1.49252e+08 ns
+
+---------------------
+Block size: 850
+GPU time: 17250 ns
+CPU time: 1.48963e+08 ns
+
+---------------------
+Block size: 900
+GPU time: 16990 ns
+CPU time: 1.49139e+08 ns
+
+---------------------
+Block size: 950
+GPU time: 16400 ns
+CPU time: 1.48835e+08 ns
+
+---------------------
+Block size: 1000
+GPU time: 17300 ns
+CPU time: 1.48893e+08 ns
